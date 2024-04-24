@@ -14,6 +14,10 @@
 		076C95D72B53FA5D00894CF0 /* TasheelSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076C95D62B53FA5D00894CF0 /* TasheelSDKDemoTests.swift */; };
 		076C95E12B53FA5D00894CF0 /* TasheelSDKDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076C95E02B53FA5D00894CF0 /* TasheelSDKDemoUITests.swift */; };
 		076C95E32B53FA5D00894CF0 /* TasheelSDKDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076C95E22B53FA5D00894CF0 /* TasheelSDKDemoUITestsLaunchTests.swift */; };
+		076C96032B54089B00894CF0 /* TasheelSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076C96012B54089B00894CF0 /* TasheelSDK.xcframework */; };
+		076C96042B54089B00894CF0 /* TasheelSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076C96012B54089B00894CF0 /* TasheelSDK.xcframework */; };
+		076C96052B5408B800894CF0 /* TasheelSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076C96012B54089B00894CF0 /* TasheelSDK.xcframework */; };
+		076C96062B5408B800894CF0 /* TasheelSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 076C96012B54089B00894CF0 /* TasheelSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		076C96002B5407DE00894CF0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				076C96062B5408B800894CF0 /* TasheelSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		076C95C22B53FA5B00894CF0 /* TasheelSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasheelSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		076C95C52B53FA5B00894CF0 /* TasheelSDKDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasheelSDKDemoApp.swift; sourceTree = "<group>"; };
@@ -44,6 +62,7 @@
 		076C95DC2B53FA5D00894CF0 /* TasheelSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasheelSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		076C95E02B53FA5D00894CF0 /* TasheelSDKDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasheelSDKDemoUITests.swift; sourceTree = "<group>"; };
 		076C95E22B53FA5D00894CF0 /* TasheelSDKDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasheelSDKDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		076C96012B54089B00894CF0 /* TasheelSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TasheelSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076C96052B5408B800894CF0 /* TasheelSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076C96032B54089B00894CF0 /* TasheelSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076C96042B54089B00894CF0 /* TasheelSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,7 @@
 				076C95D52B53FA5D00894CF0 /* TasheelSDKDemoTests */,
 				076C95DF2B53FA5D00894CF0 /* TasheelSDKDemoUITests */,
 				076C95C32B53FA5B00894CF0 /* Products */,
+				076C95EF2B53FEBD00894CF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +150,14 @@
 			path = TasheelSDKDemoUITests;
 			sourceTree = "<group>";
 		};
+		076C95EF2B53FEBD00894CF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				076C96012B54089B00894CF0 /* TasheelSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +168,7 @@
 				076C95BE2B53FA5B00894CF0 /* Sources */,
 				076C95BF2B53FA5B00894CF0 /* Frameworks */,
 				076C95C02B53FA5B00894CF0 /* Resources */,
+				076C96002B5407DE00894CF0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -430,6 +462,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +470,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.procco.UCFS-TAS-HEEL.TasheelSDKDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,6 +496,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +504,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.procco.UCFS-TAS-HEEL.TasheelSDKDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

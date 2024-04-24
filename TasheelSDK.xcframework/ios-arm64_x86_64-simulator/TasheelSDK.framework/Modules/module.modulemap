@@ -1,0 +1,11 @@
+framework module TasheelSDK {
+  umbrella header "TasheelSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module TasheelSDK.Swift {
+  header "TasheelSDK-Swift.h"
+  requires objc
+}

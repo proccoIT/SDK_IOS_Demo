@@ -1,0 +1,1368 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TasheelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TasheelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Logging",
+        "printedName": "Logging",
+        "declKind": "Import",
+        "moduleName": "TasheelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TasheelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Logging",
+        "printedName": "Logging",
+        "declKind": "Import",
+        "moduleName": "TasheelSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseetaButton",
+        "printedName": "BaseetaButton",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TasheelSDK13BaseetaButtonV4bodyQrvp",
+            "mangledName": "$s10TasheelSDK13BaseetaButtonV4bodyQrvp",
+            "moduleName": "TasheelSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TasheelSDK13BaseetaButtonV4bodyQrvg",
+                "mangledName": "$s10TasheelSDK13BaseetaButtonV4bodyQrvg",
+                "moduleName": "TasheelSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TasheelSDK13BaseetaButtonV",
+        "mangledName": "$s10TasheelSDK13BaseetaButtonV",
+        "moduleName": "TasheelSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TasheelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TasheelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "TasheelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Logging",
+        "printedName": "Logging",
+        "declKind": "Import",
+        "moduleName": "TasheelSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TasheelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Logging",
+        "printedName": "Logging",
+        "declKind": "Import",
+        "moduleName": "TasheelSDK"
+      },
+      {
+        "kind": "Var",
+        "name": "Tasheel",
+        "printedName": "Tasheel",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "TasheelSDK",
+            "printedName": "TasheelSDK.TasheelSDK",
+            "usr": "c:@M@TasheelSDK@objc(cs)TasheelSDK"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10TasheelSDK0A0A2ACvp",
+        "mangledName": "$s10TasheelSDK0A0A2ACvp",
+        "moduleName": "TasheelSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TasheelSDK",
+                "printedName": "TasheelSDK.TasheelSDK",
+                "usr": "c:@M@TasheelSDK@objc(cs)TasheelSDK"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:10TasheelSDK0A0A2ACvg",
+            "mangledName": "$s10TasheelSDK0A0A2ACvg",
+            "moduleName": "TasheelSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TasheelSDK",
+        "printedName": "TasheelSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TasheelSDK",
+                "printedName": "TasheelSDK.TasheelSDK",
+                "usr": "c:@M@TasheelSDK@objc(cs)TasheelSDK"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TasheelSDKAAC7defaultABvpZ",
+            "mangledName": "$s10TasheelSDKAAC7defaultABvpZ",
+            "moduleName": "TasheelSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TasheelSDK",
+                    "printedName": "TasheelSDK.TasheelSDK",
+                    "usr": "c:@M@TasheelSDK@objc(cs)TasheelSDK"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TasheelSDKAAC7defaultABvgZ",
+                "mangledName": "$s10TasheelSDKAAC7defaultABvgZ",
+                "moduleName": "TasheelSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "assignMerchantIdentifier",
+            "printedName": "assignMerchantIdentifier(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TasheelSDKAAC24assignMerchantIdentifieryySSKF",
+            "mangledName": "$s10TasheelSDKAAC24assignMerchantIdentifieryySSKF",
+            "moduleName": "TasheelSDK",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TasheelSDK@objc(cs)TasheelSDK",
+        "mangledName": "$s10TasheelSDKAAC",
+        "moduleName": "TasheelSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 24,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ssZ\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 919,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 26,
+      "value": "\"Cleaning web view cache.\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1644,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1669,
+      "length": 29,
+      "value": "\"Loading web for URL: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1697,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1789,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1814,
+      "length": 46,
+      "value": "\"URL is missing, web view will not be loaded.\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2105,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2130,
+      "length": 34,
+      "value": "\"Received raw message: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2163,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2184,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2209,
+      "length": 35,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2243,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2475,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2500,
+      "length": 28,
+      "value": "\"Message as string: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2527,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "Array",
+      "offset": 2623,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2771,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2780,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2823,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2848,
+      "length": 41,
+      "value": "\"Message as dictionary: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2888,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2970,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2995,
+      "length": 26,
+      "value": "\"Message as data: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3020,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 38,
+      "value": "\"Button Clicked: Applying to Baseeta.\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 369,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 18,
+      "value": "\"Apply to Baseeta\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 9,
+      "value": "\"Baseeta\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 865,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1035,
+      "length": 9,
+      "value": "\"Baseeta\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1199,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1243,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1494,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1662,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "FloatLiteral",
+      "offset": 1727,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1733,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1804,
+      "length": 9,
+      "value": "\"SwiftUI\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1849,
+      "length": 7,
+      "value": "\"UIKit\""
+    },
+    {
+      "filePath": "@__swiftmacro_10TasheelSDK33_47EE212D68C612F8DE1B7AF1A234DF18Ll7PreviewfMf_.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 40,
+      "value": "\"TasheelSDK\/BaseetButtonViewStyle.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_10TasheelSDK33_47EE212D68C612F8DE1B7AF1A234DF18Ll7PreviewfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 308,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "@__swiftmacro_10TasheelSDK33_47EE212D68C612F8DE1B7AF1A234DF18Ll7PreviewfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 340,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_10TasheelSDK33_47EE212D68C612F8DE1B7AF1A234DF18Ll7PreviewfMf_.swift",
+      "kind": "StringLiteral",
+      "offset": 512,
+      "length": 9,
+      "value": "\"SwiftUI\""
+    },
+    {
+      "filePath": "@__swiftmacro_10TasheelSDK33_47EE212D68C612F8DE1B7AF1A234DF18Ll7PreviewfMf_.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 7,
+      "value": "\"UIKit\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2106,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2112,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "FloatLiteral",
+      "offset": 2142,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2155,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 4227,
+      "length": 18,
+      "value": "\"Apply to Baseeta\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4357,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4493,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 4670,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 4695,
+      "length": 38,
+      "value": "\"Button Clicked: Applying to Baseeta.\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 5133,
+      "length": 9,
+      "value": "\"Baseeta\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5456,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/BaseetButtonViewStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5634,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 22,
+      "value": "\"Tasheel_App_Language\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
+      "length": 27,
+      "value": "\"Tasheel_App_Merchant_UUID\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 698,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 768,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 807,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 877,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 999,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1041,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 69,
+      "value": "\"https:\/\/uatsite-45f9fccbb93a-tasheelapi-uat.procco.net\/Merchantland\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "Array",
+      "offset": 1714,
+      "length": 11,
+      "value": "[\"baseeta\"]"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1775,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 1866,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2010,
+      "length": 4,
+      "value": "\"ar\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2017,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2021,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2100,
+      "length": 5,
+      "value": "\"123\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2203,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2228,
+      "length": 36,
+      "value": "\"Received event: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2263,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2297,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2340,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2365,
+      "length": 28,
+      "value": "\"Received action: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2392,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2425,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2459,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2484,
+      "length": 36,
+      "value": "\"Web view will be closed: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2519,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2612,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2637,
+      "length": 78,
+      "value": "\"Web view is waiting for the javaScript string to evaluate. Action: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2714,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2831,
+      "length": 4,
+      "value": "\"ar\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2838,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2842,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 2917,
+      "length": 5,
+      "value": "\"123\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4251,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4638,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4757,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 4940,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 4965,
+      "length": 51,
+      "value": "\"didFailProvisionalNavigation with error: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 5015,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5043,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 5272,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 5297,
+      "length": 39,
+      "value": "\"navigationAction: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 5335,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "Dictionary",
+      "offset": 5555,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "Dictionary",
+      "offset": 5927,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6323,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6348,
+      "length": 39,
+      "value": "\"navigationAction: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6386,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 4308,
+      "length": 11,
+      "value": "\"TasheelSDK.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6626,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6651,
+      "length": 75,
+      "value": "\"Evaluateing javaScript:  language: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6698,
+      "length": 1,
+      "value": "\", merchantID: \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6725,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6750,
+      "length": 69,
+      "value": "\"window.setDataValue('\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6793,
+      "length": 4,
+      "value": "\"', '\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6816,
+      "length": 3,
+      "value": "\"')\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6906,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6931,
+      "length": 59,
+      "value": "\"evaluateJavaScript Object:  \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 6989,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7012,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7037,
+      "length": 57,
+      "value": "\"evaluateJavaScript Error:  \""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7093,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7329,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7354,
+      "length": 51,
+      "value": "\"Deleting cookie: [\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7387,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7403,
+      "length": 1,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7673,
+      "length": 17,
+      "value": "\"Tasheel.App.SDK\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7698,
+      "length": 62,
+      "value": "\"Deleting record: [\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7738,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/ApplicationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7758,
+      "length": 1,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/TasheelSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 685,
+      "length": 27,
+      "value": "\"Tasheel_App_Merchant_UUID\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/TasheelSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1043,
+      "length": 107,
+      "value": "\"Merchant identifier is missing. Add TasheelSDK.default.assignMerchantIdentifier(YOUR_MERCHANT_IDENTIFIER)\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/TasheelSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1178,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/TasheelSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1225,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/TasheelSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1267,
+      "length": 72,
+      "value": "\"Merchant identifier is invalid. Make your merchant identifier is valid\""
+    },
+    {
+      "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/TasheelSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1367,
+      "length": 4,
+      "value": "1000"
+    }
+  ]
+}
