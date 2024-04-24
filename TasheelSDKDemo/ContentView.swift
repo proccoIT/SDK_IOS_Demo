@@ -12,7 +12,7 @@ struct ContentView: View {
   
   init() {
     do {
-      try Tasheel.initSetup("YOUR_MERCHANT_IDENTIFIER", language: .en, isDebug: true)
+      try Tasheel.initSetup("#YOUR_MERCHANT_IDENTIFIER", language: .en, isDebug: true)
     } catch let error {
       print(error)
     }
