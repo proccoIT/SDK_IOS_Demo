@@ -12,7 +12,7 @@ struct ContentView: View {
   
   init() {
     do {
-      try Tasheel.assignMerchantIdentifier("1234567890")
+      try Tasheel.initSetup("YOUR_MERCHANT_IDENTIFIER", language: .en, isDebug: true)
     } catch let error {
       print(error)
     }
@@ -20,10 +20,9 @@ struct ContentView: View {
   
   var body: some View {
     VStack {
-      Image(systemName: "globe")
-        .imageScale(.large)
-        .foregroundStyle(.tint)
-      Text("Hello, world!")
+      Button("Show") {
+        Tasheel.show()
+      }
     }
     .padding()
   }
