@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/hamad/Library/Developer/Xcode/DerivedData/TasheelSDKWorkspace-elhczonugvmruxbvywstnxitvpbe/Build/Intermediates.noindex/ArchiveIntermediates/TasheelSDK/InstallationBuildProductsLocation/Library/Frameworks/TasheelSDK.framework/TasheelSDK'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x5AC6B, size: 0x8, addend: 0x0, symName: _TasheelSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x12B30, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x5ACA0, size: 0x8, addend: 0x0, symName: _TasheelSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x12B60, symSize: 0x0 }
+  - { offsetInCU: 0x34, offset: 0x5AC6B, size: 0x8, addend: 0x0, symName: _TasheelSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x12B80, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5ACA0, size: 0x8, addend: 0x0, symName: _TasheelSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x12BB0, symSize: 0x0 }
   - { offsetInCU: 0x4B, offset: 0x5AD01, size: 0x8, addend: 0x0, symName: '_$sSo15NSDateFormatterC10TasheelSDKE11iso8601FullABvpZ', symObjAddr: 0x11248, symBinAddr: 0x1DB58, symSize: 0x0 }
   - { offsetInCU: 0x59, offset: 0x5AD0F, size: 0x8, addend: 0x0, symName: '_$sSo15NSDateFormatterC10TasheelSDKE11iso8601Full_WZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x1C }
   - { offsetInCU: 0x73, offset: 0x5AD29, size: 0x8, addend: 0x0, symName: '_$sSo15NSDateFormatterC10TasheelSDKE11iso8601FullABvpZfiAByXEfU_', symObjAddr: 0x1C, symBinAddr: 0x401C, symSize: 0x2BC }
@@ -174,46 +174,46 @@ relocations:
   - { offsetInCU: 0x44C9, offset: 0x61721, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A21SDKApplicationWebViewV20makeUIViewController7contextAA0a6SDKWebeH0C7SwiftUI0gH20RepresentableContextVyACG_tFTf4nn_g', symObjAddr: 0x6C9C, symBinAddr: 0xDA44, symSize: 0x6D0 }
   - { offsetInCU: 0x45DC, offset: 0x61834, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A21SDKApplicationWebViewV11CoordinatorC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtFTf4ddn_n', symObjAddr: 0x79E8, symBinAddr: 0xE754, symSize: 0xE0 }
   - { offsetInCU: 0x46B0, offset: 0x61908, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A21SDKApplicationWebViewV11CoordinatorC03webE0_28didFailProvisionalNavigation9withErrorySo05WKWebE0C_So12WKNavigationCSgs0M0_ptFTf4ddnn_n', symObjAddr: 0x7AC8, symBinAddr: 0xE834, symSize: 0x25C }
-  - { offsetInCU: 0x4F, offset: 0x61B94, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A0AA0A3KitCvp', symObjAddr: 0x1C78, symBinAddr: 0x1D888, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x61B94, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A0AA0A3KitCvp', symObjAddr: 0x1CC8, symBinAddr: 0x1D888, symSize: 0x0 }
   - { offsetInCU: 0xAD, offset: 0x61BF2, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitCACyc33_2546F54E4F6EF2C82E8BDEA6131F31ABLlfcTo', symObjAddr: 0x344, symBinAddr: 0xF5E0, symSize: 0xF0 }
-  - { offsetInCU: 0x1B6, offset: 0x61CFB, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC7defaultACvpZ', symObjAddr: 0x1C80, symBinAddr: 0x1D890, symSize: 0x0 }
-  - { offsetInCU: 0x20C, offset: 0x61D51, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x2AC, symBinAddr: 0xF548, symSize: 0xC }
-  - { offsetInCU: 0x228, offset: 0x61D6D, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x2B8, symBinAddr: 0xF554, symSize: 0x20 }
-  - { offsetInCU: 0x240, offset: 0x61D85, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x2B8, symBinAddr: 0xF554, symSize: 0x20 }
-  - { offsetInCU: 0x284, offset: 0x61DC9, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A0_WZ', symObjAddr: 0x64, symBinAddr: 0xF340, symSize: 0x48 }
-  - { offsetInCU: 0x2CE, offset: 0x61E13, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A0AA0A3KitCvg', symObjAddr: 0xAC, symBinAddr: 0xF388, symSize: 0x40 }
-  - { offsetInCU: 0x30F, offset: 0x61E54, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC7default_WZ', symObjAddr: 0x2D8, symBinAddr: 0xF574, symSize: 0x2C }
-  - { offsetInCU: 0x393, offset: 0x61ED8, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitCMa', symObjAddr: 0x464, symBinAddr: 0xF700, symSize: 0x20 }
-  - { offsetInCU: 0x3A7, offset: 0x61EEC, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitCfETo', symObjAddr: 0x484, symBinAddr: 0xF720, symSize: 0x48 }
-  - { offsetInCU: 0x447, offset: 0x61F8C, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSHAASQWb', symObjAddr: 0xAAC, symBinAddr: 0xFD48, symSize: 0x4 }
-  - { offsetInCU: 0x45B, offset: 0x61FA0, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOACSQAAWl', symObjAddr: 0xAB0, symBinAddr: 0xFD4C, symSize: 0x44 }
-  - { offsetInCU: 0x46F, offset: 0x61FB4, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0xAF4, symBinAddr: 0xFD90, symSize: 0xC }
-  - { offsetInCU: 0x483, offset: 0x61FC8, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0xB00, symBinAddr: 0xFD9C, symSize: 0x4 }
-  - { offsetInCU: 0x497, offset: 0x61FDC, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOwet', symObjAddr: 0xB04, symBinAddr: 0xFDA0, symSize: 0x90 }
-  - { offsetInCU: 0x4AB, offset: 0x61FF0, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOwst', symObjAddr: 0xB94, symBinAddr: 0xFE30, symSize: 0xBC }
-  - { offsetInCU: 0x4BF, offset: 0x62004, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOwug', symObjAddr: 0xC50, symBinAddr: 0xFEEC, symSize: 0x8 }
-  - { offsetInCU: 0x4D3, offset: 0x62018, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOwup', symObjAddr: 0xC58, symBinAddr: 0xFEF4, symSize: 0x4 }
-  - { offsetInCU: 0x4E7, offset: 0x6202C, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOwui', symObjAddr: 0xC5C, symBinAddr: 0xFEF8, symSize: 0xC }
-  - { offsetInCU: 0x4FB, offset: 0x62040, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOMa', symObjAddr: 0xC68, symBinAddr: 0xFF04, symSize: 0x10 }
-  - { offsetInCU: 0x525, offset: 0x6206A, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC22dismissApplicationView33_2546F54E4F6EF2C82E8BDEA6131F31ABLLyyFTo', symObjAddr: 0xC84, symBinAddr: 0xFF20, symSize: 0x78 }
-  - { offsetInCU: 0x700, offset: 0x62245, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV6filteryAByxGSbxKXEKFSo7UISceneC_Tg5070$sSo13UIApplicationC10TasheelSDKE14firstKeyWindowSo8UIWindowCSgvgSbSo7D6CXEfU_Tf1cn_n', symObjAddr: 0xDF8, symBinAddr: 0x10094, symSize: 0x180 }
-  - { offsetInCU: 0x8CC, offset: 0x62411, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV6filteryAByxGSbxKXEKFADs13_UnsafeBitsetVKXEfU_So7UISceneC_Tg5070$sSo13UIApplicationC10TasheelSDKE14firstKeyWindowSo8UIWindowCSgvgSbSo7F6CXEfU_Tf1nnc_n', symObjAddr: 0x1200, symBinAddr: 0x1049C, symSize: 0x180 }
-  - { offsetInCU: 0xA4C, offset: 0x62591, size: 0x8, addend: 0x0, symName: '_$sSo13UIApplicationC10TasheelSDKE14firstKeyWindowSo8UIWindowCSgvgTf4d_n', symObjAddr: 0x15A0, symBinAddr: 0x1083C, symSize: 0x544 }
-  - { offsetInCU: 0xC54, offset: 0x62799, size: 0x8, addend: 0x0, symName: '_$sSo7UISceneCSo8NSObjectCSH10ObjectiveCWl', symObjAddr: 0x1AE4, symBinAddr: 0x10D80, symSize: 0x58 }
-  - { offsetInCU: 0xC68, offset: 0x627AD, size: 0x8, addend: 0x0, symName: '_$sSh8IteratorV8_VariantOyx__GSHRzlWOe', symObjAddr: 0x1B3C, symBinAddr: 0x10DD8, symSize: 0x8 }
-  - { offsetInCU: 0xCB0, offset: 0x627F5, size: 0x8, addend: 0x0, symName: '_$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF10TasheelSDK12LanguageTypeO_TB5', symObjAddr: 0x0, symBinAddr: 0xF2DC, symSize: 0x64 }
-  - { offsetInCU: 0xD49, offset: 0x6288E, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x1BC, symBinAddr: 0xF458, symSize: 0xC }
-  - { offsetInCU: 0xDCF, offset: 0x62914, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSHAASH9hashValueSivgTW', symObjAddr: 0x1C8, symBinAddr: 0xF464, symSize: 0x5C }
-  - { offsetInCU: 0xE83, offset: 0x629C8, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x224, symBinAddr: 0xF4C0, symSize: 0x30 }
-  - { offsetInCU: 0xEF5, offset: 0x62A3A, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x254, symBinAddr: 0xF4F0, symSize: 0x58 }
-  - { offsetInCU: 0xFD7, offset: 0x62B1C, size: 0x8, addend: 0x0, symName: '_$sSTsE5first5where7ElementQzSgSbADKXE_tKFSaySo8UIWindowCG_Tg5052$sSo13UIApplicationC10TasheelSDKE14firstKeyWindowSo8D59CSgvgSbAFcfu_32d8c7eb42d2e10d064e84f81bacc63c21AFSbTf3npk_nTf1cn_n', symObjAddr: 0xCFC, symBinAddr: 0xFF98, symSize: 0xFC }
-  - { offsetInCU: 0x12EB, offset: 0x62E30, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeO8rawValueACSgSS_tcfC', symObjAddr: 0xEC, symBinAddr: 0xF3C8, symSize: 0x74 }
-  - { offsetInCU: 0x1322, offset: 0x62E67, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeO8rawValueSSvg', symObjAddr: 0x1A0, symBinAddr: 0xF43C, symSize: 0x1C }
-  - { offsetInCU: 0x136F, offset: 0x62EB4, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC7defaultACvgZ', symObjAddr: 0x304, symBinAddr: 0xF5A0, symSize: 0x40 }
-  - { offsetInCU: 0x13B5, offset: 0x62EFA, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitCfD', symObjAddr: 0x434, symBinAddr: 0xF6D0, symSize: 0x30 }
-  - { offsetInCU: 0x14B3, offset: 0x62FF8, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC9initSetup_8language7isDebugySS_AA12LanguageTypeOSbtKF', symObjAddr: 0x4CC, symBinAddr: 0xF768, symSize: 0x194 }
-  - { offsetInCU: 0x16D6, offset: 0x6321B, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC4showyyF', symObjAddr: 0x660, symBinAddr: 0xF8FC, symSize: 0x254 }
-  - { offsetInCU: 0x17BC, offset: 0x63301, size: 0x8, addend: 0x0, symName: '_$sSo13UIApplicationC10TasheelSDKE17topViewController10controllerSo06UIViewF0CSgAH_tFZ', symObjAddr: 0x8B4, symBinAddr: 0xFB50, symSize: 0x1F8 }
-  - { offsetInCU: 0x18F7, offset: 0x6343C, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV6resize8capacityySi_tFSo7UISceneC_Tg5', symObjAddr: 0xF78, symBinAddr: 0x10214, symSize: 0x288 }
-  - { offsetInCU: 0x19C3, offset: 0x63508, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV13extractSubset5using5countAByxGs13_UnsafeBitsetV_SitFSo7UISceneC_Tg5', symObjAddr: 0x1380, symBinAddr: 0x1061C, symSize: 0x220 }
+  - { offsetInCU: 0x1CC, offset: 0x61D11, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC7defaultACvpZ', symObjAddr: 0x1CD0, symBinAddr: 0x1D890, symSize: 0x0 }
+  - { offsetInCU: 0x222, offset: 0x61D67, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x2AC, symBinAddr: 0xF548, symSize: 0xC }
+  - { offsetInCU: 0x23E, offset: 0x61D83, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x2B8, symBinAddr: 0xF554, symSize: 0x20 }
+  - { offsetInCU: 0x256, offset: 0x61D9B, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x2B8, symBinAddr: 0xF554, symSize: 0x20 }
+  - { offsetInCU: 0x29A, offset: 0x61DDF, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A0_WZ', symObjAddr: 0x64, symBinAddr: 0xF340, symSize: 0x48 }
+  - { offsetInCU: 0x2E4, offset: 0x61E29, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A0AA0A3KitCvg', symObjAddr: 0xAC, symBinAddr: 0xF388, symSize: 0x40 }
+  - { offsetInCU: 0x325, offset: 0x61E6A, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC7default_WZ', symObjAddr: 0x2D8, symBinAddr: 0xF574, symSize: 0x2C }
+  - { offsetInCU: 0x3A9, offset: 0x61EEE, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitCMa', symObjAddr: 0x464, symBinAddr: 0xF700, symSize: 0x20 }
+  - { offsetInCU: 0x3BD, offset: 0x61F02, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitCfETo', symObjAddr: 0x484, symBinAddr: 0xF720, symSize: 0x48 }
+  - { offsetInCU: 0x45D, offset: 0x61FA2, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSHAASQWb', symObjAddr: 0xB00, symBinAddr: 0xFD9C, symSize: 0x4 }
+  - { offsetInCU: 0x471, offset: 0x61FB6, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOACSQAAWl', symObjAddr: 0xB04, symBinAddr: 0xFDA0, symSize: 0x44 }
+  - { offsetInCU: 0x485, offset: 0x61FCA, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0xB48, symBinAddr: 0xFDE4, symSize: 0xC }
+  - { offsetInCU: 0x499, offset: 0x61FDE, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0xB54, symBinAddr: 0xFDF0, symSize: 0x4 }
+  - { offsetInCU: 0x4AD, offset: 0x61FF2, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOwet', symObjAddr: 0xB58, symBinAddr: 0xFDF4, symSize: 0x90 }
+  - { offsetInCU: 0x4C1, offset: 0x62006, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOwst', symObjAddr: 0xBE8, symBinAddr: 0xFE84, symSize: 0xBC }
+  - { offsetInCU: 0x4D5, offset: 0x6201A, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOwug', symObjAddr: 0xCA4, symBinAddr: 0xFF40, symSize: 0x8 }
+  - { offsetInCU: 0x4E9, offset: 0x6202E, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOwup', symObjAddr: 0xCAC, symBinAddr: 0xFF48, symSize: 0x4 }
+  - { offsetInCU: 0x4FD, offset: 0x62042, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOwui', symObjAddr: 0xCB0, symBinAddr: 0xFF4C, symSize: 0xC }
+  - { offsetInCU: 0x511, offset: 0x62056, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOMa', symObjAddr: 0xCBC, symBinAddr: 0xFF58, symSize: 0x10 }
+  - { offsetInCU: 0x53B, offset: 0x62080, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC22dismissApplicationView33_2546F54E4F6EF2C82E8BDEA6131F31ABLLyyFTo', symObjAddr: 0xCD8, symBinAddr: 0xFF74, symSize: 0x78 }
+  - { offsetInCU: 0x716, offset: 0x6225B, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV6filteryAByxGSbxKXEKFSo7UISceneC_Tg5070$sSo13UIApplicationC10TasheelSDKE14firstKeyWindowSo8UIWindowCSgvgSbSo7D6CXEfU_Tf1cn_n', symObjAddr: 0xE4C, symBinAddr: 0x100E8, symSize: 0x180 }
+  - { offsetInCU: 0x8E2, offset: 0x62427, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV6filteryAByxGSbxKXEKFADs13_UnsafeBitsetVKXEfU_So7UISceneC_Tg5070$sSo13UIApplicationC10TasheelSDKE14firstKeyWindowSo8UIWindowCSgvgSbSo7F6CXEfU_Tf1nnc_n', symObjAddr: 0x1254, symBinAddr: 0x104F0, symSize: 0x180 }
+  - { offsetInCU: 0xA62, offset: 0x625A7, size: 0x8, addend: 0x0, symName: '_$sSo13UIApplicationC10TasheelSDKE14firstKeyWindowSo8UIWindowCSgvgTf4d_n', symObjAddr: 0x15F4, symBinAddr: 0x10890, symSize: 0x544 }
+  - { offsetInCU: 0xC6A, offset: 0x627AF, size: 0x8, addend: 0x0, symName: '_$sSo7UISceneCSo8NSObjectCSH10ObjectiveCWl', symObjAddr: 0x1B38, symBinAddr: 0x10DD4, symSize: 0x58 }
+  - { offsetInCU: 0xC7E, offset: 0x627C3, size: 0x8, addend: 0x0, symName: '_$sSh8IteratorV8_VariantOyx__GSHRzlWOe', symObjAddr: 0x1B90, symBinAddr: 0x10E2C, symSize: 0x8 }
+  - { offsetInCU: 0xCC6, offset: 0x6280B, size: 0x8, addend: 0x0, symName: '_$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF10TasheelSDK12LanguageTypeO_TB5', symObjAddr: 0x0, symBinAddr: 0xF2DC, symSize: 0x64 }
+  - { offsetInCU: 0xD5F, offset: 0x628A4, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x1BC, symBinAddr: 0xF458, symSize: 0xC }
+  - { offsetInCU: 0xDE5, offset: 0x6292A, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSHAASH9hashValueSivgTW', symObjAddr: 0x1C8, symBinAddr: 0xF464, symSize: 0x5C }
+  - { offsetInCU: 0xE99, offset: 0x629DE, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x224, symBinAddr: 0xF4C0, symSize: 0x30 }
+  - { offsetInCU: 0xF0B, offset: 0x62A50, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x254, symBinAddr: 0xF4F0, symSize: 0x58 }
+  - { offsetInCU: 0xFED, offset: 0x62B32, size: 0x8, addend: 0x0, symName: '_$sSTsE5first5where7ElementQzSgSbADKXE_tKFSaySo8UIWindowCG_Tg5052$sSo13UIApplicationC10TasheelSDKE14firstKeyWindowSo8D59CSgvgSbAFcfu_32d8c7eb42d2e10d064e84f81bacc63c21AFSbTf3npk_nTf1cn_n', symObjAddr: 0xD50, symBinAddr: 0xFFEC, symSize: 0xFC }
+  - { offsetInCU: 0x1301, offset: 0x62E46, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeO8rawValueACSgSS_tcfC', symObjAddr: 0xEC, symBinAddr: 0xF3C8, symSize: 0x74 }
+  - { offsetInCU: 0x1338, offset: 0x62E7D, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK12LanguageTypeO8rawValueSSvg', symObjAddr: 0x1A0, symBinAddr: 0xF43C, symSize: 0x1C }
+  - { offsetInCU: 0x1385, offset: 0x62ECA, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC7defaultACvgZ', symObjAddr: 0x304, symBinAddr: 0xF5A0, symSize: 0x40 }
+  - { offsetInCU: 0x13CB, offset: 0x62F10, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitCfD', symObjAddr: 0x434, symBinAddr: 0xF6D0, symSize: 0x30 }
+  - { offsetInCU: 0x14C9, offset: 0x6300E, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC9initSetup_8language7isDebugySS_AA12LanguageTypeOSbtKF', symObjAddr: 0x4CC, symBinAddr: 0xF768, symSize: 0x194 }
+  - { offsetInCU: 0x1707, offset: 0x6324C, size: 0x8, addend: 0x0, symName: '_$s10TasheelSDK0A3KitC4showyyF', symObjAddr: 0x660, symBinAddr: 0xF8FC, symSize: 0x2A8 }
+  - { offsetInCU: 0x182D, offset: 0x63372, size: 0x8, addend: 0x0, symName: '_$sSo13UIApplicationC10TasheelSDKE17topViewController10controllerSo06UIViewF0CSgAH_tFZ', symObjAddr: 0x908, symBinAddr: 0xFBA4, symSize: 0x1F8 }
+  - { offsetInCU: 0x1968, offset: 0x634AD, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV6resize8capacityySi_tFSo7UISceneC_Tg5', symObjAddr: 0xFCC, symBinAddr: 0x10268, symSize: 0x288 }
+  - { offsetInCU: 0x1A34, offset: 0x63579, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV13extractSubset5using5countAByxGs13_UnsafeBitsetV_SitFSo7UISceneC_Tg5', symObjAddr: 0x13D4, symBinAddr: 0x10670, symSize: 0x220 }
 ...

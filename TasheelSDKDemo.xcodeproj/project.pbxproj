@@ -14,8 +14,8 @@
 		076C95D72B53FA5D00894CF0 /* TasheelSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076C95D62B53FA5D00894CF0 /* TasheelSDKDemoTests.swift */; };
 		076C95E12B53FA5D00894CF0 /* TasheelSDKDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076C95E02B53FA5D00894CF0 /* TasheelSDKDemoUITests.swift */; };
 		076C95E32B53FA5D00894CF0 /* TasheelSDKDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076C95E22B53FA5D00894CF0 /* TasheelSDKDemoUITestsLaunchTests.swift */; };
-		07DF3A0B2BD90955008EDFE8 /* TasheelSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF3A0A2BD90955008EDFE8 /* TasheelSDK.xcframework */; };
-		07DF3A0C2BD9096F008EDFE8 /* TasheelSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF3A0A2BD90955008EDFE8 /* TasheelSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07DF3A0F2BD90CF5008EDFE8 /* TasheelSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF3A0D2BD90CE8008EDFE8 /* TasheelSDK.xcframework */; };
+		07DF3A102BD90CF5008EDFE8 /* TasheelSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF3A0D2BD90CE8008EDFE8 /* TasheelSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				07DF3A0C2BD9096F008EDFE8 /* TasheelSDK.xcframework in Embed Frameworks */,
+				07DF3A102BD90CF5008EDFE8 /* TasheelSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,7 +60,7 @@
 		076C95DC2B53FA5D00894CF0 /* TasheelSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasheelSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		076C95E02B53FA5D00894CF0 /* TasheelSDKDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasheelSDKDemoUITests.swift; sourceTree = "<group>"; };
 		076C95E22B53FA5D00894CF0 /* TasheelSDKDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasheelSDKDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		07DF3A0A2BD90955008EDFE8 /* TasheelSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TasheelSDK.xcframework; sourceTree = "<group>"; };
+		07DF3A0D2BD90CE8008EDFE8 /* TasheelSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TasheelSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07DF3A0B2BD90955008EDFE8 /* TasheelSDK.xcframework in Frameworks */,
+				07DF3A0F2BD90CF5008EDFE8 /* TasheelSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +149,7 @@
 		076C95EF2B53FEBD00894CF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				07DF3A0A2BD90955008EDFE8 /* TasheelSDK.xcframework */,
+				07DF3A0D2BD90CE8008EDFE8 /* TasheelSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
