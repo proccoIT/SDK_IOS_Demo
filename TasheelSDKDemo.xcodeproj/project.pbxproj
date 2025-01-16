@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0741ABEC2D38E2EA00FCA812 /* TasheelSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0741ABEB2D38E2EA00FCA812 /* TasheelSDK.xcframework */; };
 		076C95C62B53FA5B00894CF0 /* TasheelSDKDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076C95C52B53FA5B00894CF0 /* TasheelSDKDemoApp.swift */; };
 		076C95C82B53FA5B00894CF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076C95C72B53FA5B00894CF0 /* ContentView.swift */; };
 		076C95CA2B53FA5D00894CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076C95C92B53FA5D00894CF0 /* Assets.xcassets */; };
@@ -14,7 +15,6 @@
 		076C95D72B53FA5D00894CF0 /* TasheelSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076C95D62B53FA5D00894CF0 /* TasheelSDKDemoTests.swift */; };
 		076C95E12B53FA5D00894CF0 /* TasheelSDKDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076C95E02B53FA5D00894CF0 /* TasheelSDKDemoUITests.swift */; };
 		076C95E32B53FA5D00894CF0 /* TasheelSDKDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076C95E22B53FA5D00894CF0 /* TasheelSDKDemoUITestsLaunchTests.swift */; };
-		07DF3A142BD91018008EDFE8 /* TasheelSDKSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 07DF3A132BD91018008EDFE8 /* TasheelSDKSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0741ABEB2D38E2EA00FCA812 /* TasheelSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TasheelSDK.xcframework; sourceTree = "<group>"; };
 		076C95C22B53FA5B00894CF0 /* TasheelSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasheelSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		076C95C52B53FA5B00894CF0 /* TasheelSDKDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasheelSDKDemoApp.swift; sourceTree = "<group>"; };
 		076C95C72B53FA5B00894CF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07DF3A142BD91018008EDFE8 /* TasheelSDKSwift in Frameworks */,
+				0741ABEC2D38E2EA00FCA812 /* TasheelSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +147,7 @@
 		076C95EF2B53FEBD00894CF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0741ABEB2D38E2EA00FCA812 /* TasheelSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,7 +170,6 @@
 			);
 			name = TasheelSDKDemo;
 			packageProductDependencies = (
-				07DF3A132BD91018008EDFE8 /* TasheelSDKSwift */,
 			);
 			productName = TasheelSDKDemo;
 			productReference = 076C95C22B53FA5B00894CF0 /* TasheelSDKDemo.app */;
@@ -243,7 +244,6 @@
 			);
 			mainGroup = 076C95B92B53FA5B00894CF0;
 			packageReferences = (
-				07DF3A122BD91018008EDFE8 /* XCRemoteSwiftPackageReference "SDK_IOS" */,
 			);
 			productRefGroup = 076C95C32B53FA5B00894CF0 /* Products */;
 			projectDirPath = "";
@@ -452,7 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TasheelSDKDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P8SNLSQ62F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -486,7 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TasheelSDKDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P8SNLSQ62F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -628,25 +628,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		07DF3A122BD91018008EDFE8 /* XCRemoteSwiftPackageReference "SDK_IOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://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@github.com/tasheelfinance/SDK_IOS.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		07DF3A132BD91018008EDFE8 /* TasheelSDKSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 07DF3A122BD91018008EDFE8 /* XCRemoteSwiftPackageReference "SDK_IOS" */;
-			productName = TasheelSDKSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 076C95BA2B53FA5B00894CF0 /* Project object */;
 }
