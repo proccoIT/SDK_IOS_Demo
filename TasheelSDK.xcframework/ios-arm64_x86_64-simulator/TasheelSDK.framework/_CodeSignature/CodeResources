@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/TasheelSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FldnNvFretsMrsIikPOfw/xdods=
+		XTM4ancV87wv6v2Is4T7OYO69e0=
 		</data>
 		<key>Modules/TasheelSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/TasheelSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FldnNvFretsMrsIikPOfw/xdods=
+		XTM4ancV87wv6v2Is4T7OYO69e0=
 		</data>
 		<key>Modules/TasheelSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kC0+s3uBC7v41Y+gmWDjG9kONqYfGP/muevJpxbfLL0=
+			bRXR7H6fZUJGCAuKED1c8KP/TNiryyqWFxhRRoTs04g=
 			</data>
 		</dict>
 		<key>Modules/TasheelSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kC0+s3uBC7v41Y+gmWDjG9kONqYfGP/muevJpxbfLL0=
+			bRXR7H6fZUJGCAuKED1c8KP/TNiryyqWFxhRRoTs04g=
 			</data>
 		</dict>
 		<key>Modules/TasheelSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

@@ -9,25 +9,28 @@ import SwiftUI
 import TasheelSDK
 
 struct ContentView: View {
-  
-  init() {
-    do {
-      try Tasheel.initSetup("#YOUR_MERCHANT_IDENTIFIER", language: .en, isDebug: true)
-    } catch let error {
-      print(error)
+    
+    init() {
+        do {
+            try Tasheel.initSetup("#YOUR_MERCHANT_IDENTIFIER", language: .en, isDebug: true)
+        } catch let error {
+            print(error)
+        }
     }
-  }
-  
-  var body: some View {
-    VStack {
-      Button("Show") {
-        Tasheel.show()
-      }
+    
+    var body: some View {
+        VStack {
+            Spacer()
+            Button("Show") {
+                Tasheel.show()
+            }
+            Spacer()
+            Spacer()
+        }
+        .padding()
     }
-    .padding()
-  }
 }
 
 #Preview {
-  ContentView()
+    ContentView()
 }

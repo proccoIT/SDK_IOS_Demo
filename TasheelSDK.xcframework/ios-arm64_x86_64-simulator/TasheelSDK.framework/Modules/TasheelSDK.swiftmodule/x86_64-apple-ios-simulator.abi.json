@@ -575,84 +575,84 @@
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDKApplicationView.swift",
       "kind": "StringLiteral",
-      "offset": 416,
+      "offset": 432,
       "length": 27,
       "value": "\"Tasheel_App_Merchant_UUID\""
     },
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDKApplicationView.swift",
       "kind": "StringLiteral",
-      "offset": 505,
+      "offset": 523,
       "length": 35,
       "value": "\"Tasheel_App_Merchant_LanguageType\""
     },
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDKApplicationView.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 630,
       "length": 30,
       "value": "\"Tasheel_App_Merchant_IsDebug\""
     },
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDKApplicationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 855,
+      "offset": 883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDKApplicationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 925,
+      "offset": 959,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDKApplicationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 964,
+      "offset": 1000,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDKApplicationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1034,
+      "offset": 1074,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDKApplicationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1156,
+      "offset": 1204,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDKApplicationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1198,
+      "offset": 1250,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDK.swift",
       "kind": "StringLiteral",
-      "offset": 736,
+      "offset": 742,
       "length": 27,
       "value": "\"Tasheel_App_Merchant_UUID\""
     },
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDK.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 833,
       "length": 35,
       "value": "\"Tasheel_App_Merchant_LanguageType\""
     },
     {
       "filePath": "\/Users\/hamad\/Projects\/Procco Finanacial Services\/SDKs\/Tasheel\/TasheelSDK\/Sources\/TasheelSDK.swift",
       "kind": "StringLiteral",
-      "offset": 930,
+      "offset": 940,
       "length": 30,
       "value": "\"Tasheel_App_Merchant_IsDebug\""
     }
